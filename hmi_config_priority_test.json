@@ -1,0 +1,35 @@
+{
+"SCREENA" : {
+    "#Screen size" : "[width, hight]",
+    "SIZE" : [1152, 576],
+
+    "SCENES" : {
+        "LDW" : {
+            "graphic_sn"    :   0,
+            "zone"          :   "A",
+            "res_path"      :   "/home/bot/samba/ar-hud/ldw.png",
+            "position"      :   [922, 340, 20, 144],
+            "priority"      :   3,
+            "layer"         :   1
+        },
+
+        "BSD" : {
+            "graphic_sn"    :   1,
+            "zone"          :   "A",
+            "res_path"      :   "/home/bot/samba/ar-hud/bsd_red.png",
+            "position"      :   [100, 340, 260, 144],
+            "priority"      :   3,
+            "layer"         :   2
+        },
+
+        "FCW" : {
+            "graphic_sn"    :   2,
+            "zone"          :   "A",
+            "res_path"      :   "/resources/fcw.mp4",
+            "position"      :   [0, 0, 1152, 576],
+            "priority"      :   4,
+            "layer"         :   3
+        }
+    }
+}
+}
